@@ -34,15 +34,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="ViewFinder" id="pCq-EU-mcO">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="wyf-0b-9og">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PL9-Qj-dm1">
-                                <rect key="frame" x="302" y="0.0" width="92" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="+"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="+" id="42U-6H-lqu">
                             <connections>
-                                <segue destination="eES-XQ-FpH" kind="show" id="nL1-AP-pkT"/>
+                                <segue destination="eES-XQ-FpH" kind="show" id="IMd-Ry-NHR"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -88,7 +82,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2U8-Cl-2cJ">
                                 <rect key="frame" x="245" y="666" width="113" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Album"/>
+                                <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
